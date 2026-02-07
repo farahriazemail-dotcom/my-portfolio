@@ -244,6 +244,7 @@ font-size: 20px;}
 .navbar.active { 
   right: 0;
 }
+
 .home {
 flex-direction: column;
 }
