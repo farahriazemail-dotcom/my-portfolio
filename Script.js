@@ -19,7 +19,7 @@ filterButtons.forEach(button => {
     });
   });
 });
- const typed = new Typed('.multiple-text', {
+   const typed = new Typed('.multiple-text', {
       strings: ['Software Quality Assurance Engineer', 'Manual Tester', 'Web Developer', 'UI/UX Designer'],
       typeSpeed: 50,
       backSpeed: 50,
