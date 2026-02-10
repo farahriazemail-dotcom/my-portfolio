@@ -286,17 +286,18 @@ margin-top: 1rem;}
   text-align: center;
   color: #ff3df7;
   margin-bottom: 14px; /* IMPORTANT FIX */
+  
 }
 
 /* PARAGRAPH */
 .skills-desc {
-  font-size: 16px;
-  line-height: 1.7;
-  color: #ddd;
-  margin-bottom: 60px; /* space before cards */
-  max-width: 780px;
-  margin-left: auto;
-  margin-right: auto;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #ddd;
+    margin-bottom: 60px; /* space before cards */
+    max-width: 100%; /* allow full width */
+    white-space: normal; /* allow line breaks */
+    text-align: justify; /* make all lines equal width */
 }
 
 /* Grid */
@@ -479,26 +480,37 @@ color: var(--text-color);
 }
 
 /* Project Section Code*/
+
 .projects-section {
+  padding-top: 20px;   /* smaller top padding */
+  padding-bottom: 60px;
   background: var(--bg-color);
-  padding: 60px 6%;
   color: #fff;
   text-align: center;
-
 }
 
 .section-title {
-  font-size: 42px;
-  margin-bottom: 5px; /* reduce space after title */
+    padding-top: 20px;
+  font-size: 60px;
+  margin-bottom: 0.5rem; /* small space below title */
+  line-height: 1.2;     /* optional: reduce title height */
+  color: var(--text-color);
 }
 
 .section-desc {
-  max-width: 800px;
-  margin: 0 auto 30px; /* remove any extra top margin */
-  padding: 0;
-  opacity: 0.85;
-  margin-top: 0%;
+  font-size: 16px;
+  line-height: 1.5;      /* slightly smaller line height */
+  color: #ddd;
+  max-width: 100%;
+  text-align: justify;
+  margin: 0 auto 40px auto; /* 0 top margin, 40px bottom */
+  padding: 0;               /* remove any padding */
 }
+.projects-section p {
+  margin-top: 0;
+  margin-bottom: 1.2em; /* smaller space */
+}
+
 /* FILTER BUTTONS */
 .project-filters {
   display: flex;
