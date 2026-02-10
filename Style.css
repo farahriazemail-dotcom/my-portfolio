@@ -297,7 +297,7 @@ margin-top: 1rem;}
     margin-bottom: 60px; /* space before cards */
     max-width: 100%; /* allow full width */
     white-space: normal; /* allow line breaks */
-    text-align: justify; /* make all lines equal width */
+    text-align: center; /* make all lines equal width */
 }
 
 /* Grid */
@@ -490,7 +490,7 @@ color: var(--text-color);
 }
 
 .section-title {
-    padding-top: 20px;
+  padding-top: 20px;
   font-size: 60px;
   margin-bottom: 0.5rem; /* small space below title */
   line-height: 1.2;     /* optional: reduce title height */
@@ -502,7 +502,7 @@ color: var(--text-color);
   line-height: 1.5;      /* slightly smaller line height */
   color: #ddd;
   max-width: 100%;
-  text-align: justify;
+  text-align: center;
   margin: 0 auto 40px auto; /* 0 top margin, 40px bottom */
   padding: 0;               /* remove any padding */
 }
